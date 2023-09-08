@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header/>
-        {children}
+        <main className='relative mx-auto mb-16 max-w-4xl px-8 py-24'>
+          {children}
+        </main>
       </body>
     </html>
   )
