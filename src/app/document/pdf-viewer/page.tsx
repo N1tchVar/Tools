@@ -8,9 +8,9 @@ import { useDropzone } from 'react-dropzone'
 import toast from 'react-hot-toast'
 import '@react-pdf-viewer/core/lib/styles/index.css'
 import '@react-pdf-viewer/default-layout/lib/styles/index.css'
-
 import { getExtension } from '@/lib/get-extension'
-
+import Container from '@/components/Container'
+import Title from '@/components/Title'
 
 const PDFViewer = () => {
   const [mounted, setMounted] = React.useState(false)
@@ -33,6 +33,8 @@ const PDFViewer = () => {
   React.useEffect(() => setMounted(true), [])
 
   return (
+    <Container className='flex max-w-5xl flex-col items-center justify-center'>
+      <Title title='PDF Viewer' />
 
       <div className='my-12 w-full'>
         <div
@@ -56,6 +58,7 @@ const PDFViewer = () => {
           </Worker>
         )}
       </div>
+      </Container>
   )
 }
 
