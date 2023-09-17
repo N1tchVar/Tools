@@ -12,6 +12,25 @@ export const metadata: Metadata = {
   title: site.title,
   description: site.description,
   keywords: site.keywords,
+  openGraph: {
+    title: 'Tools | N1tch',
+    description: 'A collection of tools created by N1tch.',
+    images: [
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/nlogify.appspot.com/o/images%2FTools.png?alt=media&token=ba955d57-b70d-4c74-9888-0d6260008ebc',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/nlogify.appspot.com/o/images%2FTools.png?alt=media&token=ba955d57-b70d-4c74-9888-0d6260008ebc',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  }
 }
 
 export default function RootLayout({
