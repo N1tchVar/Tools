@@ -2,15 +2,15 @@
 
 import { Viewer, Worker } from '@react-pdf-viewer/core'
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout'
-import { IconFile } from '@tabler/icons-react'
-import React from 'react'
 import { useDropzone } from 'react-dropzone'
-import toast from 'react-hot-toast'
-import '@react-pdf-viewer/core/lib/styles/index.css'
-import '@react-pdf-viewer/default-layout/lib/styles/index.css'
+import { IconFile } from '@tabler/icons-react'
 import { getExtension } from '@/lib/get-extension'
+import React from 'react'
+import toast from 'react-hot-toast'
 import Container from '@/components/Container'
 import Title from '@/components/Title'
+import '@react-pdf-viewer/default-layout/lib/styles/index.css'
+import '@react-pdf-viewer/core/lib/styles/index.css'
 
 const PDFViewer = () => {
   const [mounted, setMounted] = React.useState(false)
