@@ -2,10 +2,10 @@
 
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
-import { site, Tool } from '@/config/site'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { site, Tool } from '@/config/site'
 
 type CardProps = {
   tools: Tool[]

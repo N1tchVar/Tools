@@ -18,6 +18,7 @@ export type Tool = {
 }
 
 type Site = {
+    url: string
     title: string
     name: string
     keywords: string[]
@@ -30,6 +31,7 @@ type Site = {
 }
 
 export const site: Site = {
+    url: 'https://tools-n1tch.vercel.app/',
     title: 'Tools | N1tch',
     name: 'N1tch',
     keywords: ['N1tch', 'Tools', 'Web Tools'],
