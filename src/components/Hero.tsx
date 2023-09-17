@@ -10,9 +10,9 @@ const Hero = () => {
                 Tools Set
             </span>{' '}
         </h1>
-        <p className="text-md text-gray-500/80">Here's some online free tools which is provided by {' '}
+        <p className="text-md text-gray-500/80">Here&apos;s some online free tools which is provided by {' '}
         <Link href="https://github.com/N1tchVar" target='_blank' className="font-bold text-violet-700">@N1tch</Link> {''}
-        this isn't any serious app, it's just a side project. which I've made for fun ✨
+        this isn&apos;t any serious app, it&apos;s just a side project. which I&apos;ve made for fun ✨
         </p>
         <div className="flex gap-4">
             <button className="bg-white text-black py-[10px] px-4 text-sm font-medium rounded-lg">
