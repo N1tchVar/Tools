@@ -47,7 +47,6 @@ export default function Home() {
                   return <Card key={label} tools={links} title={label} />
                 })}
         </div>
-        <Footer/>
     </div>
     
   )
