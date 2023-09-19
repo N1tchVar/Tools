@@ -26,17 +26,17 @@ git clone https://github.com/n1tchvar/tools.git
 2. Navigate to the project directory
 
 ```bash
-cd tools
+cd tools-app
 ```
 
 3. Install dependencies
 
 ```bash
-bun install
+npm install
 ```
 
 4. Run the development server
 
 ```bash
-bun run dev
+npm run dev
 ```

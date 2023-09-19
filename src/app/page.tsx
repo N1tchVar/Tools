@@ -31,7 +31,7 @@ export default function Home() {
           onChange={(e) => setValue(e.currentTarget.value)}
           className='w-full bg-transparent border border-white/10 py-2 px-2 rounded-md text-sm text-white focus:outline-none focus:ring-1 focus:ring-white/20'
         />
-        <div className='flex items-center py-8'>
+        <div className='flex flex-col gap-4 items-center py-8'>
           {value
               ? site.tools
                   .filter((t) => t.links.some((tool) => filter(tool)))

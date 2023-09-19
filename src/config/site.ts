@@ -49,6 +49,18 @@ export const site: Site = {
             icon: IconFileDescription
           }
         ]
-      }
+      },
+      {
+        label: 'Calculation',
+        links: [
+          {
+            label: 'Word Counter',
+            link: '/calculation/word-counter',
+            keywords: ['word-counter', 'word', 'counter'],
+            color: '#FFC0CB',
+            icon: IconArrowsLeftRight
+          }
+        ]
+      },
     ]
 }
